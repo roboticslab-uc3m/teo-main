@@ -63,7 +63,7 @@ include(YCMBootstrap)
 
 # Superbuild phase
 include(FindOrBuildPackage)
-#find_or_build_package()
+find_or_build_package(TeoOpenRAVEModels)
 
 set(TEO_MAIN_INCLUDE_DIRS CACHE INTERNAL "appended header dirs" FORCE)
 set(TEO_MAIN_LINK_DIRS CACHE INTERNAL "appended link dirs" FORCE)
