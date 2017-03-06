@@ -58,6 +58,14 @@ set(TEO_MAIN_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 # let cmake use them
 list(APPEND CMAKE_MODULE_PATH ${TEO_MAIN_MODULE_PATH})
 
+# Bootstrap YCM
+include(YCMBootstrap)
+
+# Superbuild phase
+include(FindOrBuildPackage)
+find_or_build_package(TeoOpenRAVEModels)
+find_or_build_package(RoboticslabVision)
+
 set(TEO_MAIN_INCLUDE_DIRS CACHE INTERNAL "appended header dirs" FORCE)
 set(TEO_MAIN_LINK_DIRS CACHE INTERNAL "appended link dirs" FORCE)
 set(TEO_MAIN_LIBRARIES CACHE INTERNAL "appended libraries" FORCE)
