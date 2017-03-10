@@ -63,8 +63,13 @@ include(YCMBootstrap)
 
 # Superbuild phase
 include(FindOrBuildPackage)
-find_or_build_package(TeoOpenRAVEModels)
-find_or_build_package(RoboticslabVision)
+
+find_or_build_package(TEO_OPENRAVE_MODELS)
+find_or_build_package(ROBOTICSLAB_VISION)
+
+if( NOT (USE_SYSTEM_TEO_OPENRAVE_MODELS AND USE_SYSTEM_ROBOTICSLAB_VISION))
+    install(DIRECTORY ${CMAKE_BINARY_DIR}/install/ DESTINATION ${CMAKE_INSTALL_PREFIX})
+endif()
 
 set(TEO_MAIN_INCLUDE_DIRS CACHE INTERNAL "appended header dirs" FORCE)
 set(TEO_MAIN_LINK_DIRS CACHE INTERNAL "appended link dirs" FORCE)
