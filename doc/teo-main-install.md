@@ -22,7 +22,7 @@ cmake ..
 make -j3; sudo make install; cd  # go home
 ```
 
-For CMake find_package(TEO_MAIN REQUIRED), you may also be interested in adding the following to your bashrc or profile:
+For CMake `find_package(TEO_MAIN REQUIRED)`, you may also be interested in adding the following to your `~/.bashrc` or `~/.profile`:
 ```bash
 export TEO_MAIN_DIR=/path/to/teo-main/build
 ```
