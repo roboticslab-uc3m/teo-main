@@ -27,7 +27,7 @@ For CMake find_package(TEO_MAIN REQUIRED), you may also be interested in adding 
 export TEO_MAIN_DIR=/path/to/teo-main/build
 ```
 
-For additional TEO_MAIN options use ccmake instead of cmake.
+For additional `teo-main` options use ccmake instead of cmake.
 
 ### Even more!
 
