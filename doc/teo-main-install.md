@@ -9,6 +9,7 @@ Additionally, this project depends on YCM to download and build external package
 - [vision](https://github.com/roboticslab-uc3m/vision)
 - [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics)
 - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins)
+- [installation-guides](https://github.com/roboticslab-uc3m/installation-guides)
 
 ### Install the Simulation and Basic Control Software
 
