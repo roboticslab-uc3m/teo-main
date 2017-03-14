@@ -27,3 +27,17 @@
 *.exe
 *.out
 *.app
+
+# Other (CMake, build, ycm)
+*~
+*.swp
+*.orig
+*.pyc
+.Rhistory
+tags
+CMakeLists.txt.user
+/build*/
+/.cproject
+/.project
+/external/
+
