@@ -5,11 +5,13 @@ First install the dependencies:
 - [Install YARP](https://github.com/roboticslab-uc3m/installation-guides/blob/develop/install_yarp.md)
 
 Additionally, this project depends on YCM to download and build external packages. Although this process is intended to run automatically during the CMake configuration phase, you may still want to install YCM and said packages by yourself. In that respect, refer to [Install YCM](https://github.com/roboticslab-uc3m/installation-guides/blob/develop/install_ycm.md) and to the installation guides of any package listed below:
-- [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models)
-- [vision](https://github.com/roboticslab-uc3m/vision)
-- [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics)
-- [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins)
 - [installation-guides](https://github.com/roboticslab-uc3m/installation-guides)
+- [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics)
+- [vision](https://github.com/roboticslab-uc3m/vision)
+- [speech](https://github.com/roboticslab-uc3m/speech)
+- [tools](https://github.com/roboticslab-uc3m/tools)
+- [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins)
+- [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models)
 
 ### Install the Simulation and Basic Control Software
 
