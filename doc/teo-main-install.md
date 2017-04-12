@@ -18,7 +18,7 @@ Additionally, this project depends on YCM to download and build external package
 
 ### Install the Simulation and Basic Control Software
 
-Our software integrates the previous dependencies. Note that you will be prompted for your password upon using '''sudo''' a couple of times:
+Our software integrates the previous dependencies. Note that you will be prompted for your password upon using `sudo` a couple of times:
 
 ```bash
 cd  # go home
