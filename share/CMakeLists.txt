@@ -10,5 +10,5 @@ yarp_configure_external_installation(teo-main)
 
 ### Go through single applications
 
-add_subdirectory(kinematics)
+#add_subdirectory(kinematics)
 
