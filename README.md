@@ -25,7 +25,7 @@ Installation instructions for installing from source can be found [here](doc/teo
 
 ## Status
 
-[![Build Status (Linux/OSX)](https://img.shields.io/travis/roboticslab-uc3m/teo-main/master.svg?label=Build Status (Linux/OSX))](https://travis-ci.org/roboticslab-uc3m/teo-main)
+[![Build Status (Linux/OSX)](https://travis-ci.org/roboticslab-uc3m/teo-main.svg?branch=master)](https://travis-ci.org/roboticslab-uc3m/teo-main)
 
 [![Coverage Status](https://coveralls.io/repos/roboticslab-uc3m/teo-main/badge.svg)](https://coveralls.io/r/roboticslab-uc3m/teo-main)
 
