@@ -92,7 +92,7 @@ set(TEO_MAIN_LINK_DIRS CACHE INTERNAL "appended link dirs" FORCE)
 set(TEO_MAIN_LIBRARIES CACHE INTERNAL "appended libraries" FORCE)
 
 # add main contents
-add_subdirectory(share)
+###add_subdirectory(share)
 add_subdirectory(libraries)
 add_subdirectory(programs)
 
