@@ -21,6 +21,10 @@ before_install:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install libboost-all-dev; fi
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install libqt4-dev qt4-dev-tools libxml2-dev libode-dev; fi # libfcl-dev not on Trusty used in this travis
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install libsoqt4-dev libcoin80-dev; fi
+  #-- Install espeak/MBROLA
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install espeak libespeak-dev; fi
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install mbrola-en1; fi
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install mbrola-es1; fi
 
 install:
   #-- Install yarp
