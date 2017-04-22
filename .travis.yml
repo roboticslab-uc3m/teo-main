@@ -25,6 +25,8 @@ before_install:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install espeak libespeak-dev; fi
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install mbrola-en1; fi
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install mbrola-es1; fi
+  #-- Install opencv
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install libopencv-dev; fi
 
 install:
   #-- Install yarp
