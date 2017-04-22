@@ -1,4 +1,4 @@
-[![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://robots.uc3m.es/dox-teo-main) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=Latest Release)](https://github.com/roboticslab-uc3m/teo-main/tags)
+[![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://robots.uc3m.es/dox-teo-main) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=Latest%20Release)](https://github.com/roboticslab-uc3m/teo-main/tags)
 
 TEO humanoid robot software intended for use on any PC.
 
