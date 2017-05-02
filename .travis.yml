@@ -29,6 +29,10 @@ before_install:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install libopencv-dev; fi
 
 install:
+  #-- Install PCL
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo add-apt-repository --yes ppa:v-launchpad-jochen-sprickerhof-de/pcl; fi
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get update -qq; fi
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install libpcl-all libpcl-all-dev; fi
   #-- Install yarp
   - git clone https://github.com/robotology/yarp
   - cd yarp && mkdir build && cd build
