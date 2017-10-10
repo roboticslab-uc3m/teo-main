@@ -4,7 +4,7 @@ First install the dependencies:
 - [Install CMake](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-cmake.md)
 - [Install YARP](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-yarp.md)
 
-Additionally, this project depends on YCM to download and build external packages. Although this process is intended to run automatically during the CMake configuration phase, you may still want to install YCM and said packages by yourself. In that respect, refer to [Install YCM](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install_ycm.md) and to the installation guides of any package listed below:
+Additionally, this project depends on YCM to download and build external packages. Although this process is intended to run automatically during the CMake configuration phase, you may still want to install YCM and said packages by yourself. In that respect, refer to [Install YCM](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-ycm.md) and to the installation guides of any package listed below:
 - [teo-software-manual](https://github.com/roboticslab-uc3m/teo-software-manual)
 - [teo-hardware-manual](https://github.com/roboticslab-uc3m/teo-hardware-manual)
 - [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files)
