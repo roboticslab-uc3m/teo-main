@@ -1,8 +1,12 @@
 [![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://robots.uc3m.es/dox-teo-main) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=Latest%20Release)](https://github.com/roboticslab-uc3m/teo-main/tags)
 
-TEO humanoid robot software intended for use on any PC.
+A potential super/meta repository for the [TEO humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
 
-Link to Doxygen generated documentation: http://robots.uc3m.es/dox-teo-main
+## Documentation
+
+- [TEO software manual](https://github.com/roboticslab-uc3m/teo-software-manual) (downloaded upon install)
+- [TEO hardware manual](https://github.com/roboticslab-uc3m/teo-hardware-manual) (downloaded upon install)
+- Link to Doxygen generated documentation: http://robots.uc3m.es/dox-teo-main
 
 ## Installation
 
