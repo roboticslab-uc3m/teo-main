@@ -63,8 +63,7 @@ include(YCMBootstrap)
 # Superbuild phase
 include(FindOrBuildPackage)
 
-find_or_build_package(TEO_SOFTWARE_MANUAL)
-find_or_build_package(TEO_HARDWARE_MANUAL)
+find_or_build_package(TEO_DEVELOPER_MANUAL)
 find_or_build_package(TEO_CONFIGURATION_FILES)
 find_or_build_package(TEO_OPENRAVE_MODELS)
 find_or_build_package(ROBOTICSLAB_DEVELOPER_MANUAL)
