@@ -36,7 +36,7 @@ install:
   #-- Install yarp
   - git clone https://github.com/robotology/yarp
   - cd yarp && mkdir build && cd build
-  - cmake .. -DSKIP_ACE=ON
+  - cmake .. -DCREATE_LIB_MATH=ON -DSKIP_ACE=ON
   - make
   - sudo make install
   - cd ../..
