@@ -4,8 +4,8 @@ A potential super/meta repository for the [TEO humanoid robot](http://roboticsla
 
 ## Documentation
 
-- [TEO software manual](https://github.com/roboticslab-uc3m/teo-software-manual) (downloaded upon install)
-- [TEO hardware manual](https://github.com/roboticslab-uc3m/teo-hardware-manual) (downloaded upon install)
+- [developer manual](https://github.com/roboticslab-uc3m/developer-manual) (downloaded upon install)
+- [TEO developer manual](https://github.com/roboticslab-uc3m/teo-developer-manual) (downloaded upon install)
 - Link to Doxygen generated documentation: http://robots.uc3m.es/dox-teo-main
 
 ## Installation
