@@ -1,0 +1,4 @@
+OS,OneCanBusOneWrapper,TwoCanBusThreeWrappers,AravisGigE,CanBusControlboard,CanBusHico,CuiAbsolute,FakeJoint,Jr3,LacqueyFetch,LeapMotionSensor,ProximitySensorsClient,SpaceNavigator,TechnosoftIpos,TextilesHand,WiimoteSensor,AravisGigEController
+Debian 6.0.10,✅,✅,❓,✅,✅,✅,✅,✅,✅,❓,✅,❓,✅,✅,❓,❓
+Ubuntu 14.04 (and derivatives),✅,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅
+Ubuntu 16.04 (and derivatives),✅,✅,✅,❌,❌,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅
