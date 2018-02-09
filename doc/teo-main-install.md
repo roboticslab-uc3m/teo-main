@@ -5,7 +5,7 @@ First install the dependencies:
 - [Install YARP](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-yarp.md)
 
 Additionally, this project depends on YCM to download and build external packages. Although this process is intended to run automatically during the CMake configuration phase, you may still want to install YCM and said packages by yourself. In that respect, refer to [Install YCM](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-ycm.md) and to the installation guides of any package listed below:
-- [teo-software-manual](https://github.com/roboticslab-uc3m/teo-software-manual)
+- [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual)
 - [teo-hardware-manual](https://github.com/roboticslab-uc3m/teo-hardware-manual)
 - [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files)
 - [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models)
@@ -27,12 +27,9 @@ mkdir -p repos; cd repos  # make $HOME/repos if it does not exist; then, enter i
 git clone https://github.com/roboticslab-uc3m/teo-main.git  # download teo-main software from the repository
 cd teo-main; mkdir build; cd build
 cmake ..
-make -j3; sudo make install; cd  # go home
-```
-
-For CMake `find_package(TEO_MAIN REQUIRED)`, you may also be interested in adding the following to your `~/.bashrc` or `~/.profile`:
-```bash
-export TEO_MAIN_DIR=/path/to/teo-main/build
+make -j$(nproc)  # compile
+sudo make install  # install
+cd  # go home
 ```
 
 For additional `teo-main` options use ccmake instead of cmake.
@@ -41,4 +38,4 @@ For additional `teo-main` options use ccmake instead of cmake.
 
 Done! You are now probably interested in one of the following links:
 
-- [teo-software-manual](https://github.com/roboticslab-uc3m/teo-software-manual)
+- [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual)
