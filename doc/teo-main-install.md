@@ -32,7 +32,7 @@ sudo make install  # install
 cd  # go home
 ```
 
-For additional `teo-main` options use ccmake instead of cmake.
+For additional `teo-main` options use `ccmake` instead of `cmake`.
 
 ### Even more!
 
