@@ -100,9 +100,9 @@ add_subdirectory(libraries)
 add_subdirectory(programs)
 
 # export our variables to a TEO_MAINConfig.cmake creation
-set(TEO_MAIN_LINK_DIRS ${TEO_MAIN_LINK_DIRS} ${LIBRARY_OUTPUT_PATH})
-configure_file(${CMAKE_SOURCE_DIR}/cmake/template/TEO_MAINConfig.cmake.in
-               ${CMAKE_BINARY_DIR}/TEO_MAINConfig.cmake @ONLY)
+#set(TEO_MAIN_LINK_DIRS ${TEO_MAIN_LINK_DIRS} ${LIBRARY_OUTPUT_PATH})
+#configure_file(${CMAKE_SOURCE_DIR}/cmake/template/TEO_MAINConfig.cmake.in
+#               ${CMAKE_BINARY_DIR}/TEO_MAINConfig.cmake @ONLY)
 
 # create a symbolic link to the shared directory (as contains models and may be heavy)
 # If you want a deep copy, you can use the copy_directory command instead of create_symlink.
