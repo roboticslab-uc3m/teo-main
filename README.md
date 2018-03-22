@@ -1,6 +1,6 @@
 [![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=Latest%20Release)](https://github.com/roboticslab-uc3m/teo-main/tags)
 
-A potential super/meta repository for the [TEO humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
+A super/meta repository for the [TEO humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
 
 ## Documentation
 
