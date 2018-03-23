@@ -2,7 +2,7 @@
 # Authors: roboticslab, jgvictores, etc
 # CopyPolicy: Released under the terms of the GNU GPL v2.0.
 
-cmake_minimum_required(VERSION 2.8.9)
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
 project(TEO_MAIN)
 
@@ -10,9 +10,7 @@ project(TEO_MAIN)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake
                               ${CMAKE_SOURCE_DIR}/cmake/ycm-modules)
 
-# Bootstrap YCM
-# https://github.com/robotology/ycm/issues/118
-set(YCM_TAG v0.2.2)
+# Bootstrap YCM. Keep it compatible with cmake_minimum_required().
 include(YCMBootstrap)
 
 # Superbuild phase

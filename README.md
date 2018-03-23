@@ -1,12 +1,11 @@
-[![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://robots.uc3m.es/dox-teo-main) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=Latest%20Release)](https://github.com/roboticslab-uc3m/teo-main/tags)
+[![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=Latest%20Release)](https://github.com/roboticslab-uc3m/teo-main/tags)
 
-A potential super/meta repository for the [TEO humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
+A super/meta repository for the [TEO humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
 
 ## Documentation
 
 - [developer manual](https://github.com/roboticslab-uc3m/developer-manual) (downloaded upon install)
 - [TEO developer manual](https://github.com/roboticslab-uc3m/teo-developer-manual) (downloaded upon install)
-- Link to Doxygen generated documentation: http://robots.uc3m.es/dox-teo-main
 
 ## Installation
 
@@ -30,7 +29,5 @@ Installation instructions for installing from source can be found [here](doc/teo
 ## Status
 
 [![Build Status (Linux/OSX)](https://travis-ci.org/roboticslab-uc3m/teo-main.svg?branch=develop)](https://travis-ci.org/roboticslab-uc3m/teo-main)
-
-[![Coverage Status](https://coveralls.io/repos/roboticslab-uc3m/teo-main/badge.svg)](https://coveralls.io/r/roboticslab-uc3m/teo-main)
 
 [![Issues](https://img.shields.io/github/issues/roboticslab-uc3m/teo-main.svg?label=Issues)](https://github.com/roboticslab-uc3m/teo-main/issues)
