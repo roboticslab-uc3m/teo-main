@@ -1,7 +1,7 @@
-[![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=Latest%20Release)](https://github.com/roboticslab-uc3m/teo-main/tags)
+[![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=latest%20release)](https://github.com/roboticslab-uc3m/teo-main/tags)
 ![Travis branch (master)](https://img.shields.io/travis/roboticslab-uc3m/teo-main/master.svg?label=master)
 ![Travis branch (develop)](https://img.shields.io/travis/roboticslab-uc3m/teo-main/master.svg?label=develop)
-[![Issues](https://img.shields.io/github/issues/roboticslab-uc3m/teo-main.svg?label=Issues)](https://github.com/roboticslab-uc3m/teo-main/issues)
+[![Issues](https://img.shields.io/github/issues/roboticslab-uc3m/teo-main.svg?label=issues)](https://github.com/roboticslab-uc3m/teo-main/issues)
 
 A super/meta repository for the [TEO humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
 
