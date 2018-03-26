@@ -3,7 +3,7 @@
 ![Travis branch (develop)](https://img.shields.io/travis/roboticslab-uc3m/teo-main/master.svg?label=develop)
 [![Issues](https://img.shields.io/github/issues/roboticslab-uc3m/teo-main.svg?label=issues)](https://github.com/roboticslab-uc3m/teo-main/issues)
 
-A super/meta repository for the [TEO humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
+[TEO full-sized humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid): super/meta repository.
 
 ## Documentation
 
