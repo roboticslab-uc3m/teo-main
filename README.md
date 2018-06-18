@@ -1,6 +1,9 @@
-[![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=Latest%20Release)](https://github.com/roboticslab-uc3m/teo-main/tags)
+[![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=latest%20release)](https://github.com/roboticslab-uc3m/teo-main/tags)
+![Travis branch (master)](https://img.shields.io/travis/roboticslab-uc3m/teo-main/master.svg?label=master)
+![Travis branch (develop)](https://img.shields.io/travis/roboticslab-uc3m/teo-main/master.svg?label=develop)
+[![Issues](https://img.shields.io/github/issues/roboticslab-uc3m/teo-main.svg?label=issues)](https://github.com/roboticslab-uc3m/teo-main/issues)
 
-A super/meta repository for the [TEO humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid).
+[TEO full-sized humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid): super/meta repository.
 
 ## Documentation
 
@@ -25,9 +28,3 @@ Installation instructions for installing from source can be found [here](doc/teo
 3. Commit your changes
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
-
-## Status
-
-[![Build Status (Linux/OSX)](https://travis-ci.org/roboticslab-uc3m/teo-main.svg?branch=develop)](https://travis-ci.org/roboticslab-uc3m/teo-main)
-
-[![Issues](https://img.shields.io/github/issues/roboticslab-uc3m/teo-main.svg?label=Issues)](https://github.com/roboticslab-uc3m/teo-main/issues)
