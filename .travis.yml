@@ -23,6 +23,7 @@ addons:
     - libcoin80-dev
 
     # ROBOTICSLAB
+    - libopencv-dev
     - libspnav-dev
 
 before_install:
