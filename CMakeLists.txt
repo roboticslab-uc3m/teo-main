@@ -35,12 +35,5 @@ find_or_build_package(ROBOTICSLAB_VISION)
 find_or_build_package(ROBOTICSLAB_SPEECH)
 find_or_build_package(ROBOTICSLAB_TOOLS)
 
-# Prepare install/ directory (might be empty).
-file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/install)
-
-# Install downloaded packages.
-install(DIRECTORY ${CMAKE_BINARY_DIR}/install/
-        DESTINATION ${CMAKE_INSTALL_PREFIX})
-
 # Configure and create uninstall target.
 include(AddUninstallTarget)
