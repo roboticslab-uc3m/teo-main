@@ -1,6 +1,5 @@
 language: cpp
 dist: trusty
-sudo: required
 os: linux
 
 compiler:
@@ -27,10 +26,6 @@ addons:
     - libspnav-dev
 
 before_install:
-  #-- Configure Git (needed by YCM)
-  - if [ ! `git config --get user.email` ]; then `git config --global user.email 'user@example.com'`; fi
-  - if [ ! `git config --get user.name` ]; then `git config --global user.name 'Travis CI'`; fi
-
   #-- Add source repository for PCL-related packages
   - sudo add-apt-repository --yes ppa:v-launchpad-jochen-sprickerhof-de/pcl
   - sudo apt-get -qq update
@@ -44,7 +39,7 @@ install:
 
 before_script:
   - mkdir -p build && cd "$_"
-  - cmake .. -DCMAKE_INSTALL_PREFIX="$PWD/install-system"
+  - cmake .. -DCMAKE_INSTALL_PREFIX="$PWD/install-system" -DNON_INTERACTIVE_BUILD=ON
 
 script:
   - make install
