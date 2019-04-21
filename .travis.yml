@@ -1,5 +1,5 @@
 language: cpp
-dist: trusty
+dist: xenial
 os: linux
 
 compiler:
@@ -23,21 +23,16 @@ addons:
 
     # ROBOTICSLAB
     - libopencv-dev
+    - libpcl-dev
+    - libproj-dev # needed by libpcl-dev on Xenial (known bug)
     - libspnav-dev
-
-before_install:
-  #-- Add source repository for PCL-related packages
-  - sudo add-apt-repository --yes ppa:v-launchpad-jochen-sprickerhof-de/pcl
-  - sudo apt-get -qq update
-
-install:
-  #-- Install PCL
-  - sudo apt-get install libpcl-all-dev
-
-  #-- Install ROBOTICSLAB deps
-  - sudo apt-get install libxwiimote-dev
+    - libxwiimote-dev
 
 before_script:
+  # Reduce build log verbosity
+  - export CFLAGS="-w"
+  - export CXXFLAGS="-w"
+
   - mkdir -p build && cd "$_"
   - cmake .. -DCMAKE_INSTALL_PREFIX="$PWD/install-system" -DNON_INTERACTIVE_BUILD=ON
 
