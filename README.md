@@ -1,5 +1,5 @@
 [![teo-main Homepage](https://img.shields.io/badge/teo-main-orange.svg)](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) [![Latest Release](https://img.shields.io/github/tag/roboticslab-uc3m/teo-main.svg?label=latest%20release)](https://github.com/roboticslab-uc3m/teo-main/tags)
-![Travis branch (master)](https://img.shields.io/travis/roboticslab-uc3m/teo-main/master.svg?label=master)
+[![CI (Linux)](https://github.com/roboticslab-uc3m/teo-main/workflows/Continuous%20Integration/badge.svg)](https://github.com/roboticslab-uc3m/teo-main/actions)
 [![Issues](https://img.shields.io/github/issues/roboticslab-uc3m/teo-main.svg?label=issues)](https://github.com/roboticslab-uc3m/teo-main/issues)
 
 [TEO full-sized humanoid robot](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid): super/meta repository.
