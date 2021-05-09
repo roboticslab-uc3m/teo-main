@@ -2,16 +2,15 @@
 # Authors: roboticslab, jgvictores, etc
 # CopyPolicy: Released under the terms of the GNU GPL v2.0.
 
-cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.12)
 
 project(TEO_MAIN LANGUAGES NONE)
 
 # Pick up our CMake modules.
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake
-                              ${CMAKE_SOURCE_DIR}/cmake/ycm-modules)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/ycm-modules)
 
 # Find this YCM version on system, bootstrap it if not available.
-set(YCM_MINIMUM_VERSION 0.10)
+set(YCM_MINIMUM_VERSION 0.12)
 
 # Uses YCM's unmerged ExternalProject.cmake module.
 set(YCM_USE_CMAKE_PROPOSED ON)
@@ -27,7 +26,6 @@ find_or_build_package(TEO_DEVELOPER_MANUAL)
 find_or_build_package(TEO_CONFIGURATION_FILES)
 find_or_build_package(TEO_OPENRAVE_MODELS)
 find_or_build_package(ROBOTICSLAB_DEVELOPER_MANUAL)
-find_or_build_package(ROBOTICSLAB_PROJECT_GENERATOR)
 find_or_build_package(ROBOTICSLAB_INSTALLATION_GUIDES)
 find_or_build_package(ROBOTICSLAB_OPENRAVE_YARP_PLUGINS)
 find_or_build_package(ROBOTICSLAB_KINEMATICS_DYNAMICS)
