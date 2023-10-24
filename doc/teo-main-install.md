@@ -27,7 +27,7 @@ mkdir -p repos; cd repos  # make $HOME/repos if it does not exist; then, enter i
 git clone https://github.com/roboticslab-uc3m/teo-main.git  # download teo-main software from the repository
 cd teo-main; mkdir build; cd build
 cmake ..
-make -j$(nproc)  # compile
+sudo make -j$(nproc)  # compile
 sudo make install  # install
 cd  # go home
 ```
