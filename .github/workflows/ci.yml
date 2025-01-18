@@ -34,13 +34,13 @@ jobs:
 
     - name: Set up Ccache
       uses: hendrikmuhs/ccache-action@v1
+      with:
+        create-symlink: true
 
     - name: Set environment variables
       run: |
         echo "CFLAGS=-w" >> $GITHUB_ENV
         echo "CXXFLAGS=-w" >> $GITHUB_ENV
-        echo "CMAKE_C_COMPILER_LAUNCHER=ccache" >> $GITHUB_ENV
-        echo "CMAKE_CXX_COMPILER_LAUNCHER=ccache" >> $GITHUB_ENV
 
     - name: Configure teo-main
       run: cmake -S . -B build -DCMAKE_INSTALL_PREFIX="$PWD/build/install-system" -DNON_INTERACTIVE_BUILD=ON
